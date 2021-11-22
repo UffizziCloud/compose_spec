@@ -42,8 +42,58 @@ As with Docker Compose, a Service is an abstract definition of a computing resou
 | dns                                    | Unsupported (not planned)      |
 | dns_opt                                | Unsupported (not planned)      |
 | dns_search                             | Unsupported (not planned)      |
+| domainname                             | Unsupported (not planned)      |
+| entrypoint                             | Unsupported (planned)          |
+| env_file                               | Supported                      |
+| environment                            | Supported                      |
+| expose                                 | Unsupported (planned)          |
+| extends                                | Unsupported (not planned)      |
+| external_links                         | Unsupported (planned)          |
+| extra_hosts                            | Unsupported (not planned)      |
+| group_add                              | Unsupported (not planned)      |
+| healthcheck                            | Unsupported (not planned)      |
+| hostname                               | Unsupported (planned)          |
+| image                                  | Supported                      |
+| init                                   | Unsupported (planned)          |
+| ipc                                    | Unsupported (not planned)      |
+| isolation                              | Unsupported (not planned)      |
+| labels                                 | Unsupported (planned)          |
+| isolation                              | Unsupported (not planned)      |
+| links                                  | Unsupported (planned)          |
+| logging                                | Unsupported (not planned)      |
+| network_mode                           | Unsupported (not planned)      |
+| networks                               | Unsupported (not planned)      |
+| mac_address                            | Unsupported (not planned)      |
+| mem_limit                              | Unsupported (not planned)      |
+| mem_reservation                        | Unsupported (not planned)      |
+| mem_swappiness                         | Unsupported (not planned)      |
+| memswap_limit                          | Unsupported (not planned)      |
+| oom_kill_disable                       | Unsupported (not planned)      |
+| oom_score_adj                          | Unsupported (not planned)      |
+| pid                                    | Unsupported (not planned)      |
+| pids_limit                             | Unsupported (not planned)      |
+| platform                               | Unsupported (not planned)      |
+| ports                                  | Supported                      |
+| privileged                             | Unsupported (not planned)      |
+| profiles                               | Unsupported (not planned)      |
+| pull_policy                            | Unsupported (not planned)      |
+| read_only                              | Unsupported (not planned)      |
+| restart                                | Unsupported (planned)          |
+| runtime                                | Unsupported (not planned)      |
+| scale                                  | Unsupported (planned)          |
+| secrets                                | Unsupported (planned)          |
+| security_opt                           | Unsupported (not planned)      |
+| shm_size                               | Unsupported (not planned)      |
+| stdin_open                             | Unsupported (not planned)      |
+| stop_grace_period                      | Unsupported (not planned)      |
+| stop_signal                            | Unsupported (not planned)      |
+| storage_opt                            | Unsupported (not planned)      |
+| sysctls                                | Unsupported (not planned)      |
+| tmpfs                                  | Unsupported (not planned)      |
+| tty                                    | Unsupported (not planned)      |
+| ulimits                                | Unsupported (not planned)      |
+| user                                   | Unsupported (not planned)      |
+| userns_mode                            | Unsupported (not planned)      |
+| volumes                                | Unsupported (planned)          |
 
 
-### Services (required)
-
-As with Docker Compose, a Service is an abstract definition of a computing resource within an application which can be scaled/replaced independently from other components. Services are backed by a set of containers when deployed on Uffizzi.  
